@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6497b1"
+    tools:context=".highsched">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65sp"
+        android:layout_gravity="center"
+        android:text="HIGH SCHOOL SCHEDULE"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#48D1CC"/>
+
+    <Button
+        android:onClick="firstyear"
+        android:layout_width="300sp"
+        android:layout_height="75sp"
+        android:layout_gravity="center"
+        android:text="FIRST Year"
+        android:textSize="25sp"
+        android:layout_marginTop="120sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#2eccfa"/>
+
+    <Button
+        android:onClick="secondyear"
+        android:layout_width="300sp"
+        android:layout_height="75sp"
+        android:layout_gravity="center"
+        android:text="SECOND Year"
+        android:textSize="25sp"
+        android:layout_marginTop="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#F781D8"/>
+
+    <Button
+        android:onClick="thirdyear"
+        android:layout_width="300sp"
+        android:layout_height="75sp"
+        android:layout_gravity="center"
+        android:text="THIRD YEAR"
+        android:textSize="25sp"
+        android:layout_marginTop="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#9AFE2E"/>
+
+    <Button
+        android:onClick="fourthyear"
+        android:layout_width="300sp"
+        android:layout_height="75sp"
+        android:layout_gravity="center"
+        android:text="FOURTH YEAR"
+        android:textSize="25sp"
+        android:layout_marginTop="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#FA8258"/>
+
+
+</LinearLayout>

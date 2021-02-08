@@ -7,18 +7,19 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:background="#6497b1"
-
-    >
+    android:id="@+id/linear1">
 
     <ImageView
+        android:id="@+id/logo1"
         android:layout_gravity="center"
         android:layout_marginTop="50sp"
         android:layout_width="250sp"
         android:layout_height="250sp"
-        android:src="@drawable/hlogo"
-        />
+        android:src="@drawable/logocircle"/>
 
     <EditText
+        android:id="@+id/username"
+        android:textColorHint="@color/black"
         android:layout_marginTop="30sp"
         android:layout_width="300sp"
         android:layout_height="50sp"
@@ -26,6 +27,8 @@
         android:hint="ID NO:"/>
 
     <EditText
+        android:id="@+id/password"
+        android:textColorHint="@color/black"
         android:layout_marginTop="10sp"
         android:layout_width="300sp"
         android:layout_height="50sp"
@@ -33,6 +36,8 @@
         android:hint="Password:"/>
 
     <Button
+        android:id="@+id/signin_btn"
+
         android:layout_marginTop="30sp"
         android:layout_width="150sp"
         android:layout_height="50sp"
@@ -40,12 +45,15 @@
         android:textSize="20dp"
         android:layout_gravity="center"/>
 
-    <Button
-        android:layout_marginTop="20sp"
-        android:layout_width="150sp"
-        android:layout_height="50sp"
+    <TextView
+        android:id="@+id/signup_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="SIGN UP"
-        android:textSize="20dp"
-        android:layout_gravity="center"/>
+        android:gravity="center"
+        android:layout_marginTop="15sp"
+        android:textSize="20sp"
+        android:textColor="#002e4d"
+        android:textStyle="bold"/>
 
 </LinearLayout>

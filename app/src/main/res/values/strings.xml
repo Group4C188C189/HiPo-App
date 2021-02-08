@@ -1,3 +1,152 @@
 <resources>
     <string name="app_name">Hipo</string>
+    <string name="subject">SUBJECTS</string>
+    <string name="time">TIME</string>
+
+    <!-- 1st Year Section 1 -->
+    <string name="sec1sub1">English</string>
+    <string name="sec1sub2">Math</string>
+    <string name="sec1sub3">Science</string>
+    <string name="sec1sub4">Filipino</string>
+    <string name="sec1sub5">Physical Education</string>
+    <string name="sec1sub6">Arts</string>
+    <string name="sec1sub7">History</string>
+
+    <string name="sec1time1">8:00-9:00</string>
+    <string name="sec1time2">9:00-10:00</string>
+    <string name="sec1time3">10:00-11:00</string>
+    <string name="sec1time4">11:00-12:00</string>
+    <string name="sec1time5">1:00-2:00</string>
+    <string name="sec1time6">2:00-3:00</string>
+    <string name="sec1time7">3:00-4:00</string>
+
+    <!-- 1st Year Section 2 -->
+    <string name="sec2sub1">History</string>
+    <string name="sec2sub2">Filipino</string>
+    <string name="sec2sub3">Physical Education</string>
+    <string name="sec2sub4">Math</string>
+    <string name="sec2sub5">Arts</string>
+    <string name="sec2sub6">Science</string>
+    <string name="sec2sub7">English</string>
+
+    <string name="sec2time1">8:00-9:00</string>
+    <string name="sec2time2">9:00-10:00</string>
+    <string name="sec2time3">10:00-11:00</string>
+    <string name="sec2time4">11:00-12:00</string>
+    <string name="sec2time5">1:00-2:00</string>
+    <string name="sec2time6">2:00-3:00</string>
+    <string name="sec2time7">3:00-4:00</string>
+
+    <!-- Second Year Section 1 -->
+    <string name="secsec1sub1">Science</string>
+    <string name="secsec1sub2">History</string>
+    <string name="secsec1sub3">Arts</string>
+    <string name="secsec1sub4">English</string>
+    <string name="secsec1sub5">Filipino</string>
+    <string name="secsec1sub6">Math</string>
+    <string name="secsec1sub7">Physical Education</string>
+
+    <string name="secsec1time1">8:00-9:00</string>
+    <string name="secsec1time2">9:00-10:00</string>
+    <string name="secsec1time3">10:00-11:00</string>
+    <string name="secsec1time4">11:00-12:00</string>
+    <string name="secsec1time5">1:00-2:00</string>
+    <string name="secsec1time6">2:00-3:00</string>
+    <string name="secsec1time7">3:00-4:00</string>
+
+    <!-- Secon Year Section 2 -->
+    <string name="secsec2sub1">Math</string>
+    <string name="secsec2sub2">English</string>
+    <string name="secsec2sub3">History</string>
+    <string name="secsec2sub4">Arts</string>
+    <string name="secsec2sub5">Science</string>
+    <string name="secsec2sub6">Physical Education</string>
+    <string name="secsec2sub7">Filipino</string>
+
+    <string name="secsec2time1">8:00-9:00</string>
+    <string name="secsec2time2">9:00-10:00</string>
+    <string name="secsec2time3">10:00-11:00</string>
+    <string name="secsec2time4">11:00-12:00</string>
+    <string name="secsec2time5">1:00-2:00</string>
+    <string name="secsec2time6">2:00-3:00</string>
+    <string name="secsec2time7">3:00-4:00</string>
+
+    <!-- Third Year Section 1 -->
+    <string name="thirdsec1sub1">Science</string>
+    <string name="thirdsec1sub2">Arts</string>
+    <string name="thirdsec1sub3">Physical Education</string>
+    <string name="thirdsec1sub4">Filipino</string>
+    <string name="thirdsec1sub5">Math</string>
+    <string name="thirdsec1sub6">History</string>
+    <string name="thirdsec1sub7">English</string>
+
+    <string name="thirdsec1time1">8:00-9:00</string>
+    <string name="thirdsec1time2">9:00-10:00</string>
+    <string name="thirdsec1time3">10:00-11:00</string>
+    <string name="thirdsec1time4">11:00-12:00</string>
+    <string name="thirdsec1time5">1:00-2:00</string>
+    <string name="thirdsec1time6">2:00-3:00</string>
+    <string name="thirdsec1time7">3:00-4:00</string>
+
+    <!-- Third Year Section 2 -->
+    <string name="thirdsec2sub1">Arts</string>
+    <string name="thirdsec2sub2">History</string>
+    <string name="thirdsec2sub3">English</string>
+    <string name="thirdsec2sub4">Science</string>
+    <string name="thirdsec2sub5">Math</string>
+    <string name="thirdsec2sub6">Filipino</string>
+    <string name="thirdsec2sub7">Physical Education</string>
+
+    <string name="thirdsec2time1">8:00-9:00</string>
+    <string name="thirdsec2time2">9:00-10:00</string>
+    <string name="thirdsec2time3">10:00-11:00</string>
+    <string name="thirdsec2time4">11:00-12:00</string>
+    <string name="thirdsec2time5">1:00-2:00</string>
+    <string name="thirdsec2time6">2:00-3:00</string>
+    <string name="thirdsec2time7">3:00-4:00</string>
+
+    <!-- Fourth Year Section 1 -->
+    <string name="fourthsec1sub1">English</string>
+    <string name="fourthsec1sub2">Filipino</string>
+    <string name="fourthsec1sub3">History</string>
+    <string name="fourthsec1sub4">Arts</string>
+    <string name="fourthsec1sub5">Math</string>
+    <string name="fourthsec1sub6">Physical Education</string>
+    <string name="fourthsec1sub7">Science</string>
+
+    <string name="fourthsec1time1">8:00-9:00</string>
+    <string name="fourthsec1time2">9:00-10:00</string>
+    <string name="fourthsec1time3">10:00-11:00</string>
+    <string name="fourthsec1time4">11:00-12:00</string>
+    <string name="fourthsec1time5">1:00-2:00</string>
+    <string name="fourthsec1time6">2:00-3:00</string>
+    <string name="fourthsec1time7">3:00-4:00</string>
+
+    <!-- Fourth Year Section 2 -->
+    <string name="fourthsec2sub1">Science</string>
+    <string name="fourthsec2sub2">History</string>
+    <string name="fourthsec2sub3">Physical Education</string>
+    <string name="fourthsec2sub4">Filipino</string>
+    <string name="fourthsec2sub5">Math</string>
+    <string name="fourthsec2sub6">English</string>
+    <string name="fourthsec2sub7">Arts</string>
+
+    <string name="fourthsec2time1">8:00-9:00</string>
+    <string name="fourthsec2time2">9:00-10:00</string>
+    <string name="fourthsec2time3">10:00-11:00</string>
+    <string name="fourthsec2time4">11:00-12:00</string>
+    <string name="fourthsec2time5">1:00-2:00</string>
+    <string name="fourthsec2time6">2:00-3:00</string>
+    <string name="fourthsec2time7">3:00-4:00</string>
+    <string name="title_activity_highsched">highsched</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_firstyear">firstyear</string>
+
 </resources>

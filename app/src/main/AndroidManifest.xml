@@ -6,10 +6,31 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hipo">
-        <activity android:name=".Signup"></activity>
+        <activity android:name=".aboutus"></activity>
+        <activity android:name=".fourthyear" />
+        <activity android:name=".thirdyear" />
+        <activity android:name=".secondyear" />
+        <activity
+            android:name=".firstyear"
+            android:label="@string/title_activity_firstyear"
+            android:theme="@style/Theme.Hipo.NoActionBar" />
+        <activity
+            android:name=".highsched"
+            android:label="@string/title_activity_highsched"
+            android:theme="@style/Theme.Hipo.NoActionBar" />
+        <activity android:name=".navigations" />
+        <activity android:name=".fourthsec2" />
+        <activity android:name=".fourthsec1" />
+        <activity android:name=".thirdsec2" />
+        <activity android:name=".thirdsec1" />
+        <activity android:name=".secondsec2" />
+        <activity android:name=".Secondsec1" />
+        <activity android:name=".firstsec2" />
+        <activity android:name=".firstsec1" />
+        <activity android:name=".Signup" />
         <activity android:name=".Profile" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -6,25 +6,31 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#6497b1"
-    tools:context=".Signup">
+    tools:context=".Signup"
+    android:id="@+id/linear">
+
 
     <ImageView
+        android:id="@+id/logo"
         android:layout_gravity="center"
         android:layout_marginTop="50sp"
         android:layout_width="250sp"
         android:layout_height="250sp"
-        android:src="@drawable/hlogo"
+        android:src="@drawable/logocircle"
         />
 
     <EditText
+        android:id="@+id/fullname"
         android:layout_marginTop="30sp"
         android:layout_width="300sp"
         android:layout_height="50sp"
         android:layout_gravity="center"
+        android:textColorHint="@color/black"
         android:hint="Full Name:"/>
 
     <EditText
-
+        android:id="@+id/username"
+        android:textColorHint="@color/black"
         android:layout_width="300sp"
         android:layout_height="50sp"
         android:layout_gravity="center"
@@ -32,32 +38,47 @@
 
 
     <EditText
-
+        android:id="@+id/year"
+        android:textColorHint="@color/black"
         android:layout_width="300sp"
         android:layout_height="50sp"
         android:layout_gravity="center"
         android:hint="Year:"/>
 
     <EditText
-
+        android:id="@+id/section"
+        android:textColorHint="@color/black"
         android:layout_width="300sp"
         android:layout_height="50sp"
         android:layout_gravity="center"
         android:hint="Section:"/>
 
     <EditText
-
+        android:id="@+id/password"
+        android:textColorHint="@color/black"
         android:layout_width="300sp"
         android:layout_height="50sp"
         android:layout_gravity="center"
         android:hint="Password:"/>
 
     <Button
+        android:id="@+id/signup_btn"
         android:layout_marginTop="20sp"
         android:layout_width="150sp"
         android:layout_height="50sp"
         android:text="SIGN UP"
         android:textSize="20dp"
         android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/signin_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:gravity="center"
+        android:layout_marginTop="15sp"
+        android:textSize="20sp"
+        android:textColor="#002e4d"
+        android:textStyle="bold"/>
 
 </LinearLayout>
