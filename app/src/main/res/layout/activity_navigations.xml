@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6497b1"
+    android:orientation="vertical"
+    tools:context=".navigations">
+
+    <Button
+        android:onClick="myprofile"
+        android:layout_width="300sp"
+        android:layout_height="75sp"
+        android:layout_gravity="center"
+        android:text="MY PROFILE"
+        android:textSize="25sp"
+        android:layout_marginTop="120sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#48D1CC"/>
+
+    <Button
+        android:onClick="hisched"
+        android:layout_width="300sp"
+        android:layout_height="85sp"
+        android:layout_gravity="center"
+        android:text="HIGH SCHOOL SCHEDULE"
+        android:textSize="25sp"
+        android:layout_marginTop="50sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#48D1CC"/>
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="75sp"
+        android:layout_gravity="center"
+        android:text="MY SUBJECTS"
+        android:textSize="25sp"
+        android:layout_marginTop="50sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#48D1CC"/>
+
+    <Button
+        android:onClick="aboutus"
+        android:layout_width="300sp"
+        android:layout_height="75sp"
+        android:layout_gravity="center"
+        android:text="ABOUT US"
+        android:textSize="25sp"
+        android:layout_marginTop="50sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#48D1CC"/>
+
+
+</LinearLayout>

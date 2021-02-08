@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6497b1"
+    android:orientation="vertical"
+    tools:context=".fourthyear">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65sp"
+        android:layout_gravity="center"
+        android:text="FOURTH YEAR"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#FFFFFF"/>
+
+    <Button
+        android:onClick="fourthsec1"
+        android:layout_width="300sp"
+        android:layout_height="75sp"
+        android:text="Section 1"
+        android:textSize="25sp"
+        android:layout_marginTop="120sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="20sp"
+        android:backgroundTint="#FA8258"/>
+
+    <Button
+        android:onClick="fourthsec2"
+        android:layout_width="300sp"
+        android:layout_height="75sp"
+        android:layout_marginLeft="20sp"
+        android:text="Section 2"
+        android:textSize="25sp"
+        android:layout_marginTop="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#FA8258"/>
+
+</LinearLayout>

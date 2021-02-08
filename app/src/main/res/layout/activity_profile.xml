@@ -6,41 +6,190 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#6497b1"
-    tools:context=".Profile">
-
-    <LinearLayout
-        android:layout_marginTop="20sp"
-        android:layout_marginLeft="2sp"
-        android:layout_width="300sp"
-        android:layout_height="50sp"
-        android:orientation="horizontal"
-        android:text="ID NO:"
-        android:background="@drawable/border"
-        >
+    tools:context=".Profile"
+    android:id="@+id/linear2">
 
     <TextView
+        android:id="@+id/profile"
+        android:background="#4169E1"
+        android:layout_marginTop="50sp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MY PROFILE"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_marginTop="25sp"
+            android:layout_marginLeft="20sp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logocircle"
+            />
+
+        <Button
+            android:id="@+id/upload"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50sp"
+            android:layout_marginTop="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPLOAD"/>
+
+
+    <LinearLayout
+        android:id="@+id/linear4"
+        android:layout_marginTop="-200sp"
+        android:layout_marginLeft="200sp"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/idno2"
         android:layout_marginLeft="5sp"
         android:layout_width="250sp"
         android:layout_height="50sp"
-        android:textSize="30sp"
-        android:text="ID NO:"/>
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:text="ID N0:"/>
 
         <TextView
-            android:id="@+id/idno"
-            android:layout_marginLeft="-160sp"
+            android:id="@+id/idno2_profile"
+            android:layout_marginLeft="-175sp"
             android:layout_width="250sp"
             android:layout_height="50sp"
-            android:textSize="30sp"
-            android:text="2018010"/>
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:text=""/>
 
 </LinearLayout>
+    </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linear5"
+        android:background="@color/white"
+        android:layout_marginLeft="2sp"
+        android:layout_marginTop="50sp"
         android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="500sp">
+        android:layout_width="375sp"
+        android:layout_gravity="center"
+        android:layout_height="75sp">
+
+        <TextView
+            android:id="@+id/fullname1"
+            android:layout_marginLeft="5sp"
+            android:layout_width="250sp"
+            android:layout_height="50sp"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:text="Full Name:"/>
 
 
+        <TextView
+            android:id="@+id/fullname1_profile"
+            android:textColor="@color/black"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-200sp"
+            android:layout_width="500sp"
+            android:layout_height="50sp"
+            android:textSize="25sp"
+            android:text=""/>
 
     </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear6"
+            android:layout_marginLeft="2sp"
+            android:layout_marginTop="15sp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_width="375sp"
+            android:layout_gravity="center"
+            android:layout_height="75sp">
+
+            <TextView
+                android:id="@+id/year1"
+                android:layout_marginLeft="5sp"
+                android:layout_width="250sp"
+                android:layout_height="50sp"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:text="Year:"/>
+
+            <TextView
+                android:id="@+id/year1_profile"
+                android:textColor="@color/black"
+                android:layout_marginTop="-10sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="-180sp"
+                android:layout_width="500sp"
+                android:layout_height="50sp"
+                android:textSize="25sp"
+                android:text=""/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear7"
+        android:layout_marginLeft="2sp"
+        android:layout_marginTop="15sp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_width="375sp"
+        android:layout_gravity="center"
+        android:layout_height="75sp">
+
+        <TextView
+            android:id="@+id/section1"
+            android:layout_marginLeft="5sp"
+            android:layout_width="250sp"
+            android:layout_height="50sp"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:text="Section:"/>
+
+        <TextView
+            android:id="@+id/section1_profile"
+            android:layout_marginTop="-10sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-150sp"
+            android:layout_width="500sp"
+            android:layout_height="50sp"
+            android:textSize="25sp"
+            android:text=""/>
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/logout_btn"
+            android:layout_marginLeft="150sp"
+            android:layout_marginTop="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log out"
+            android:backgroundTint="#0000FF"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+
+
+
+
+
+
 </LinearLayout>
